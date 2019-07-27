@@ -18,7 +18,7 @@ class AdminController extends Controller
     {
 		return view('admin.login');
     }
-
+   
 
     public function store(Request $request)
     {

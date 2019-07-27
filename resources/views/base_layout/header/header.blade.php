@@ -62,11 +62,7 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-default">
                                      <li>
-                                 <a href="{{ route('profile.index') }}" ><i class="glyphicon glyphicon-user">
-                                     
-                                         <span > Profile</span>
-                                 </i>
-                                 </a>
+                               
                                     </li>
                                     <li>
                                         <a href="{{ url('admin/logout') }}" >

@@ -41,7 +41,7 @@
                 <!-- END RESPONSIVE QUICK SEARCH FORM -->
             </li>
             <li class="nav-item start ">
-                <a href="{{route('index.dashboard')}}" class="nav-link nav-toggle">
+                <a href="{{route('dashboard.index')}}" class="nav-link nav-toggle">
                     <i class="fa fa-dashboard"></i>
                     <span class="title">@lang('dashboard.dashboard')</span>
                     <!-- <span class="arrow"></span> -->
@@ -62,108 +62,109 @@
                  </ul> 
             </li> -->
 
-            <li class="nav-item start ">
-                <a href="javascript:;" class="nav-link nav-toggle">
-                    <i class="fa fa-book"></i>
-                    <span class="title">Products</span>
-                    <!-- <span class="arrow"></span> -->
-                </a>
-                <ul class="sub-menu">
-                <li class="nav-item start ">
-                            <a href="{{route('product.create')}}" class="nav-link ">
-                                <i class="fa fa-plus"></i>
-                                <span class="title">Add Product</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{route('product.index')}}" class="nav-link ">
-                                <i class="fa fa-list"></i>
-                                <span class="title">Products</span>
-                            </a>
-                        </li>
+
              <li class="nav-item start ">
                 <a href="javascript:;" class="nav-link nav-toggle">
                     <i class="fa fa-book"></i>
-                    <span class="title">Colors</span>
-                    <!-- <span class="arrow"></span> -->
-                </a>
+                    <span class="title"></span>
+                     <span class="arrow">Admins</span> 
+                </a> 
                 <ul class="sub-menu">
                 <li class="nav-item start ">
-                            <a href="{{route('color.create')}}" class="nav-link ">
+                            <a href="{{route('admin.create')}}" class="nav-link ">
+                                <i class="fa fa-plus"></i>
+                                <span class="title">Add Admin</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{route('admin.index')}}" class="nav-link ">
+                                <i class="fa fa-list"></i>
+                                <span class="title">Admins</span>
+                            </a>
+                        </li>
+             <!-- <li class="nav-item start ">
+                <a href="javascript:;" class="nav-link nav-toggle">
+                    <i class="fa fa-book"></i>
+                    <span class="title">Colors</span>
+                     <span class="arrow"></span> -->
+                <!-- </a> -->
+               <!--  <ul class="sub-menu">
+                <li class="nav-item start ">
+                            <a href="" class="nav-link ">
                                 <i class="fa fa-plus"></i>
                                 <span class="title">Add Color</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('color.index')}}" class="nav-link ">
+                            <a href="" class="nav-link ">
                                 <i class="fa fa-list"></i>
                                 <span class="title">Colors</span>
                             </a>
                         </li>
-                </ul>
-            </li>
-            <li class="nav-item start ">
+                </ul> -->
+            <!-- </li>  -->
+            <!-- <li class="nav-item start ">
                 <a href="javascript:;" class="nav-link nav-toggle">
                     <i class="fa fa-book"></i>
                     <span class="title">Product Size</span>
-                    <!-- <span class="arrow"></span> -->
+                    <span class="arrow"></span>
                 </a>
                 <ul class="sub-menu">
                 <li class="nav-item start ">
-                            <a href="{{route('size.create')}}" class="nav-link ">
+                            <a href="" class="nav-link ">
                                 <i class="fa fa-plus"></i>
                                 <span class="title">Add Size</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('size.index')}}" class="nav-link ">
+                            <a href="" class="nav-link ">
                                 <i class="fa fa-list"></i>
                                 <span class="title">Product Size</span>
                             </a>
                         </li>
                 </ul>
-            </li>
+            </li> -->
 
             
-                </ul>
-            </li>
-        <li class="nav-item start ">
-                        <a href="javascript:;" class="nav-link nav-toggle">
-                            <i class="fa fa-book"></i>
-                            <span class="title">Orders</span>
+                <!-- </ul> -->
+            <!-- </li> -->
+        <!-- <li class="nav-item start "> -->
+                        <!-- <a href="javascript:;" class="nav-link nav-toggle"> -->
+                            <!-- <i class="fa fa-book"></i> -->
+                            <!-- <span class="title">Orders</span> -->
                     <!-- <span class="arrow"></span> -->
-                </a>
-                <ul class="sub-menu">
+                <!-- </a> -->
+                <!-- <ul class="sub-menu">
                
                         <li class="nav-item">
-                            <a href="{{route('order.index')}}" class="nav-link ">
+                            <a href="" class="nav-link ">
                                 <i class="fa fa-list"></i>
                                 <span class="title">All Orders</span>
                             </a>
                         </li>
                 </ul>
-            </li>
-            <li class="nav-item start ">
-                <a href="javascript:;" class="nav-link nav-toggle">
-                    <i class="fa fa-book"></i>
-                    <span class="title">Categories</span>
+            </li> -->
+            <!-- <li class="nav-item start "> -->
+                <!-- <a href="javascript:;" class="nav-link nav-toggle"> -->
+                    <!-- <i class="fa fa-book"></i> -->
+                    <!-- <span class="title">Categories</span> -->
                     <!-- <span class="arrow"></span> -->
-                </a>
-                <ul class="sub-menu">
-                <li class="nav-item start ">
-                            <a href="{{route('category.create')}}" class="nav-link ">
-                                <i class="fa fa-plus"></i>
-                                <span class="title">Add Category</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ route('category.index') }}" class="nav-link ">
-                                <i class="fa fa-list"></i>
-                                <span class="title">Categories</span>
-                            </a>
-                        </li>
-                </ul>
-            </li>
+                <!-- </a> -->
+                <!-- <ul class="sub-menu"> -->
+                <!-- <li class="nav-item start "> -->
+                            <!-- <a href="" class="nav-link "> -->
+                                <!-- <i class="fa fa-plus"></i> -->
+                                <!-- <span class="title">Add Category</span> -->
+                            <!-- </a> -->
+                        <!-- </li> -->
+                        <!-- <li class="nav-item"> -->
+                            <!-- <a href="" class="nav-link "> -->
+                                <!-- <i class="fa fa-list"></i> -->
+                                <!-- <span class="title">Categories</span> -->
+                            <!-- </a> -->
+                        <!-- </li> -->
+                <!-- </ul> -->
+            <!-- </li> -->
 
 
 

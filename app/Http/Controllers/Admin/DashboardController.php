@@ -11,10 +11,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        $user = new User();
-        $order = new Order();
-        $product = new Product();
-        return view('admin.dashboard',compact('user','order','product'));
+        return view('admin.dashboard');
     }
 
    

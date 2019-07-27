@@ -21,7 +21,7 @@ class CreateAdminTable extends Migration
             $table->string('address');
             $table->string('facebook')->nullable();
             $table->string('twitter')->nullable();
-            $table->string('image')->nullable();
+            $table->string('image');
             $table->integer('age');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();

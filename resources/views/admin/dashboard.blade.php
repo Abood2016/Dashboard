@@ -11,10 +11,10 @@
                                         <i class="fa fa-briefcase fa-icon-medium"></i>
                                     </div>
                                     <div class="details text-center" >
-                                        <div class="number" > {{ $product->count() }} </div>
+                                        <div class="number" >  </div>
                                         <div class="desc">Products </div>
                                     </div>
-                                    <a class="more" href="{{route('product.index')}}"> Product
+                                    <a class="more" href=""> Product
                                         <i class="m-icon-swapright m-icon-white"></i>
                                     </a>
                                 </div>
